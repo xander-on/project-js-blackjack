@@ -1,5 +1,10 @@
-import { defineConfig } from "vite";
+// vite.config.js
+
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/blackjack-game/',
+  base: "./",// Otras configuraciones de Vite...
+  build: {
+    outDir: 'docs', // Carpeta de destino personalizada
+  },
 });
