@@ -3,8 +3,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: "./",// Otras configuraciones de Vite...
+  base: "./",
   build: {
-    outDir: 'docs', // Carpeta de destino personalizada
+    outDir: 'docs',
   },
 });
